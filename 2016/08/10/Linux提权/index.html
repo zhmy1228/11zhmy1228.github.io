@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Linux提权 | moon&#39;s Blog</title>
+  <title>Linux提权 | 月明&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="struts2 漏洞  http://rickgray.me/2016/05/06/review-struts2-remote-command-execution-vulnerabilities.html
 java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/?from=timeline&amp;amp;isappinsta">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux提权">
 <meta property="og:url" content="http://zhmy1228.github.io/2016/08/10/Linux提权/index.html">
-<meta property="og:site_name" content="moon's Blog">
+<meta property="og:site_name" content="月明's blog">
 <meta property="og:description" content="struts2 漏洞  http://rickgray.me/2016/05/06/review-struts2-remote-command-execution-vulnerabilities.html
 java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/?from=timeline&amp;amp;isappinsta">
 <meta property="og:image" content="http://zhmy1228.github.io/images/maogou.jpg">
@@ -24,9 +24,11 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
   
     <link rel="icon" href="/img/favicon.png">
   
-  
-  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
-  
+  <!-- 加载特效 -->
+ <!--  
+   <script src="/js/pace.js"></script>
+  <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+   -->
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -58,7 +60,7 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
     <header id="header" class="inner">
         <a href="/" class="profilepic">
             
-            <img lazy-src="/img/favicon.png" class="js-avatar">
+            <img lazy-src="/images/my.jpg" class="js-avatar">
             
         </a>
 
@@ -67,7 +69,7 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
         </hgroup>
 
         
-        <p class="header-subtitle">帅的不要不要的</p>
+        <p class="header-subtitle">你咋不上天呢</p>
         
         
         
@@ -124,7 +126,7 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
                         
                             <li><a href="/about">关于</a></li>
                         
-                            <li><a href="/FrontEndGuide">导航</a></li>
+                            <li><a href="/Home">导航</a></li>
                         
                         </ul>
                     </nav>
@@ -146,7 +148,7 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/HTML/" style="font-size: 10px;">HTML</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Sublime/" style="font-size: 15px;">Sublime</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/写作/" style="font-size: 10px;">写作</a>
+                        <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Sublime/" style="font-size: 15px;">Sublime</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/写作/" style="font-size: 10px;">写作</a>
                     </div>
                 </section>
                 
@@ -183,14 +185,14 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
         <header id="header" class="inner">
             <a href="/" class="profilepic">
                 
-                    <img lazy-src="/img/favicon.png" class="js-avatar">
+                    <img lazy-src="/images/my.jpg" class="js-avatar">
                 
             </a>
             <hgroup>
               <h1 class="header-author"><a href="/" title="回到主页">明明如月</a></h1>
             </hgroup>
             
-            <p class="header-subtitle">帅的不要不要的</p>
+            <p class="header-subtitle">你咋不上天呢</p>
             
             <nav class="header-menu">
                 <ul>
@@ -201,7 +203,7 @@ java反序列化漏洞 https://blog.chaitin.com/2015-11-11_java_unserialize_rce/
                 
                     <li><a href="/about">关于</a></li>
                 
-                    <li><a href="/FrontEndGuide">导航</a></li>
+                    <li><a href="/Home">导航</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -414,25 +416,25 @@ nc -l 8088
 
 
     
-      <div class="duoshuo" id="comments">
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="2016/08/10/Linux提权/" data-title="Linux提权" data-url="http://zhmy1228.github.io/2016/08/10/Linux提权/"></div>
-    <!-- 多说评论框 end -->
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"zhmy1228"};
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = '/js/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-    </script>
-    <!-- 多说公共JS代码 end -->
-</div>
-
+    
+      <section id="comments">
+      <!-- 多说评论框 start -->
+      <div class="ds-thread" data-thread-key="post-Linux提权" data-title="Linux提权" data-url="http://zhmy1228.github.io/2016/08/10/Linux提权/"></div>
+      <!-- 多说评论框 end -->
+      <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+      <script type="text/javascript">
+      var duoshuoQuery = {short_name:'undefined'};
+        (function() {
+          var ds = document.createElement('script');
+          ds.type = 'text/javascript';ds.async = true;
+          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+          ds.charset = 'UTF-8';
+          (document.getElementsByTagName('head')[0] 
+           || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+        </script>
+      <!-- 多说公共JS代码 end -->
+      </section>
     
 
 
@@ -448,7 +450,7 @@ nc -l 8088
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/10/Linux提权/">Linux提权</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/05/hello-world/">Hello World !</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/GitHub+Hexo/">使用GitHub搭建Hexo博客</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo/">Hexo的使用介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-Theme/">Hexo 主题：SPFK</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-plug/">Hexo插件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/media/">响应式布局</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/markdown/">Markdown使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/Sublimebest/">Sublime Text历练</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/SublimePackage/">Sublime插件</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/10/Linux提权/">Linux提权</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/05/hello-world/">Hello World !</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/Git/">Git的使用技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-Theme/">Hexo 主题：SPFK</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo/">Hexo的使用介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/HexoBug/">Hexo bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-plug/">Hexo插件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/GitHub+Hexo/">使用GitHub搭建Hexo博客</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/CSS/">CSS学习计划</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/markdown/">Markdown使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/Sublimebest/">Sublime Text历练</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/SublimePackage/">Sublime插件</a></li></ul>
     <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");
@@ -528,7 +530,7 @@ nc -l 8088
 	var _hmt = _hmt || [];
 	(function() {
 	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?819b1c6493df653afb8c7846bc4b8db6";
+	  hm.src = "//hm.baidu.com/hm.js?23e1ea922d907126831d235e7542cc2d";
 	  var s = document.getElementsByTagName("script")[0]; 
 	  s.parentNode.insertBefore(hm, s);
 	})();
