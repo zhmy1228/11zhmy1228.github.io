@@ -59,7 +59,10 @@ require([], function (){
             var isFancy = $(".isFancy");
             if(isFancy.length != 0){
                 var imgArr = $(".article-inner img");
-                for(var i=0,len=imgArr.length;i<len;i++){ var="" src="imgArr.eq(i).attr("src");" title="imgArr.eq(i).attr("alt");" imgarr.eq(i).replacewith("<a="" href=""+src+"" rel="fancy-group" class="fancy-ctn fancybox"><img src=""+src+"" title=""+title+"">");
+                for(var i=0,len=imgArr.length;i<len;i++){
+                    var src = imgArr.eq(i).attr("src");
+                    var title = imgArr.eq(i).attr("alt");
+                    imgArr.eq(i).replaceWith("<a href='"+src+"' title='"+title+"' rel='fancy-group' class='fancy-ctn fancybox'><img src='"+src+"' title='"+title+"'></a>");
                 }
                 $(".article-inner .fancy-ctn").fancybox();
             }
@@ -99,7 +102,32 @@ require([], function (){
               if (navigator.userAgent.match(/Safari/i)) {
                   function showArticle(){
                       $(".article").each(function(){
-                          if( $(this).offset().top <= $(window).scrolltop()+$(window).height()="" &&="" !($(this).hasclass('show'))="" )="" {="" $(this).removeclass("hidden").addclass("show");="" $(this).addclass("is-hiddened");="" }else{="" if(!$(this).hasclass("is-hiddened")){="" $(this).addclass("hidden");="" }="" });="" $(window).on('scroll',="" function(){="" showarticle();="" return;="" document.body有些浏览器不支持监听scroll，所以使用默认的document.documentelement="" scrollreveal({="" duration:="" 0,="" afterreveal:="" function="" (domel)="" safari不支持requestanimationframe不支持document.documentelement的onscroll所以这里不会执行="" 初始状态设为opacity:="" 动画效果更平滑一些(由于脚本加载是异步，页面元素渲染后在执行动画，感觉像是延时)="" $(domel).addclass('animated="" '="" +="" randomanimationname).css({opacity:="" 1});="" }).reveal('.body-wrap=""> article');
+                          if( $(this).offset().top <= $(window).scrollTop()+$(window).height() && !($(this).hasClass('show')) ) {
+                              $(this).removeClass("hidden").addClass("show");
+                              $(this).addClass("is-hiddened");
+                          }else{
+                              if(!$(this).hasClass("is-hiddened")){
+                                  $(this).addClass("hidden");
+                              }
+                          }
+                      });
+                  }
+                  $(window).on('scroll', function(){
+                      showArticle();
+                  });
+                  showArticle();
+              }
+              return;
+          }
+          // document.body有些浏览器不支持监听scroll，所以使用默认的document.documentElement
+          ScrollReveal({
+            duration: 0,
+            afterReveal: function (domEl) {
+              // safari不支持requestAnimationFrame不支持document.documentElement的onscroll所以这里不会执行
+              // 初始状态设为opacity: 0, 动画效果更平滑一些(由于脚本加载是异步，页面元素渲染后在执行动画，感觉像是延时)
+              $(domEl).addClass('animated ' + randomAnimationName).css({opacity: 1});
+            }
+          }).reveal('.body-wrap > article');
 
         });
       } else {
@@ -113,4 +141,4 @@ require([], function (){
         $(".article a[href]").attr("target", "_blank")
     }
     $(".archive-article-title").attr("target", "_blank");
-});</=></len;i++){>
+});
