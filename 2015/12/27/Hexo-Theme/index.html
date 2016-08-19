@@ -269,7 +269,7 @@
 <h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>修改hexo根目录下的 <code>_config.yml</code> ： <code>theme: spfk</code></p>
 <h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> themes/spfk</div><div class="line">git pull</div></pre></td></tr></table></figure>
 <h2 id="配置-1"><a href="#配置-1" class="headerlink" title="配置"></a>配置</h2><p>关于配置文件，</p>
-<p>主题配置文件在主目录下的<code>_config.yml</code>：<a href="http://luuman.github.io/2015/12/21/GitHub+Hexo/" title="主题配置文件">_config.yml</a></p>
+<p>主题配置文件在主目录下的<code>_config.yml</code>：<a href="http://luuman.github.io/2015/12/21/GitHub+Hexo/" title="主题配置文件" target="_blank" rel="external">_config.yml</a></p>
 <p>相关插件的安装：请参照<a href="http://localhost:4000/2015/12/27/Hexo-plug/" title="请参照安装" target="_blank" rel="external">Hexo插件安装</a><br><figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="meta">### Header</span></div><div class="line"><span class="symbol">J:</span>\Hexo\Hexo\themes\spfk\_config.yml</div><div class="line"><span class="symbol">menu:</span></div><div class="line">  主页: /</div><div class="line">  所有文章: /archives</div><div class="line">  <span class="meta"># 随笔: /tags/随笔</span></div><div class="line"></div><div class="line">    <span class="meta">#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key（http:<span class="comment">//duoshuo-key.duoshuo.com/）</span></span></div><div class="line">    <span class="meta">#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论</span></div><div class="line"><span class="symbol">    duoshuo:</span> true</div><div class="line"></div><div class="line">网页侧边栏背景:</div><div class="line"></div><div class="line"><span class="meta"># Background | 背景</span></div><div class="line"><span class="meta">## <span class="string">"background_sum"</span>: show images form /source/background/的图片数目background_sum: 24</span></div><div class="line"><span class="meta">## <span class="string">"on: true"</span>: 自动随机显示这5张图片</span></div><div class="line"><span class="meta">## <span class="string">"on: false"</span>: 自定义显示图片设置，background_image: 109</span></div><div class="line"><span class="symbol">background:</span></div><div class="line"><span class="symbol">  on:</span> true</div><div class="line">  <span class="meta">#on: false</span></div><div class="line"><span class="symbol">  background_sum:</span> <span class="number">24</span></div><div class="line"><span class="symbol">  background_image:</span> <span class="number">109</span></div></pre></td></tr></table></figure></p>
 <h3 id="多说评论"><a href="#多说评论" class="headerlink" title="多说评论"></a>多说评论</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">duoshuo: </div><div class="line">  on: true</div><div class="line">  domain: luuman</div><div class="line">  # 是否开启多说评论，http://duoshuo.com/create-site/</div><div class="line">  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分</div><div class="line">  # http://<span class="xml"><span class="tag">&lt;<span class="name">要填的部分</span>&gt;</span></span>.duoshuo.com (domain只填上<span class="xml"><span class="tag">&lt;&gt;</span></span>里的内容，不要填整个网址)</div><div class="line"></div><div class="line">J:\Hexo\Hexo\themes\spfk\source\css\多说.css</div><div class="line"></div><div class="line">添加方法：</div><div class="line">添加方法：打开「后台」 &gt; 「多说评论」 &gt; 「设置」 &gt; 「基本设置」 &gt; 然后把样式粘贴到「自定义CSS」文本框 &gt; 「保存」</div><div class="line"></div><div class="line">具体样式请参照：[<span class="string">多说.css</span>](<span class="link">https://github.com/luuman/Hexo/blob/master/themes/spfk/source/css/%E5%A4%9A%E8%AF%B4.css "CSS样式集合"</span>)</div></pre></td></tr></table></figure>
 <h3 id="头像"><a href="#头像" class="headerlink" title="头像"></a>头像</h3><figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">头像尺寸大概200*200px</div><div class="line">E:<span class="symbol">\G</span>ithub<span class="symbol">\H</span>exo<span class="symbol">\t</span>hemes<span class="symbol">\s</span>pfk<span class="symbol">\s</span>ource<span class="symbol">\i</span>mg<span class="symbol">\h</span>ead.jpg</div></pre></td></tr></table></figure>
@@ -309,18 +309,18 @@
 
 <nav id="article-nav">
   
-    <a href="/2016/01/19/Git/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2015/12/27/Hexo/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          Git的使用技巧
+          Hexo的使用介绍
         
       </div>
     </a>
   
   
-    <a href="/2015/12/27/Hexo/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hexo的使用介绍</div>
+    <a href="/2015/12/27/HexoBug/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hexo bug</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -402,18 +402,18 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/01/19/Git/" title="上一篇: Git的使用技巧">
+            <a href="/2015/12/27/Hexo/" title="上一篇: Hexo的使用介绍">
                 <i class="fa fa-angle-left"></i>
             </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/2015/12/27/Hexo/" title="下一篇: Hexo的使用介绍">
+            <a href="/2015/12/27/HexoBug/" title="下一篇: Hexo bug">
                 <i class="fa fa-angle-right"></i>
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/10/Linux提权/">Linux提权</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/05/hello-world/">Hello World !</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/Git/">Git的使用技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-Theme/">Hexo 主题：SPFK</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo/">Hexo的使用介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/HexoBug/">Hexo bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-plug/">Hexo插件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/GitHub+Hexo/">使用GitHub搭建Hexo博客</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/CSS/">CSS学习计划</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/markdown/">Markdown使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/Sublimebest/">Sublime Text历练</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/SublimePackage/">Sublime插件</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/10/Linux提权/">Linux提权</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/05/hello-world/">Hello World !</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/Git/">Git的使用技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo/">Hexo的使用介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-Theme/">Hexo 主题：SPFK</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/HexoBug/">Hexo bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/GitHub+Hexo/">使用GitHub搭建Hexo博客</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-plug/">Hexo插件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/CSS/">CSS学习计划</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/markdown/">Markdown使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/Sublimebest/">Sublime Text历练</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/SublimePackage/">Sublime插件</a></li></ul>
     <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");
