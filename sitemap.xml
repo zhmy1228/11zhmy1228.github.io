@@ -2,93 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhmy1228.github.io/Home/js/index.min.js</loc>
-    
-    <lastmod>2016-08-19T10:06:38.569Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/index.html</loc>
-    
-    <lastmod>2016-08-19T03:57:10.151Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/loding.html</loc>
-    
-    <lastmod>2016-08-18T11:43:35.861Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zhmy1228.github.io/2016/08/10/Linux%E6%8F%90%E6%9D%83/</loc>
     
     <lastmod>2016-08-18T09:36:06.289Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/js/canvas/bootstrap.min.js</loc>
-    
-    <lastmod>2016-08-18T09:17:20.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/js/canvas/ban.js</loc>
-    
-    <lastmod>2016-08-18T09:17:20.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/js/luuman.scrollPage.min.js</loc>
-    
-    <lastmod>2016-08-18T09:17:20.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/js/smohan.scrollPage.min.js</loc>
-    
-    <lastmod>2016-08-18T09:17:20.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/js/jquery.js</loc>
-    
-    <lastmod>2016-08-18T09:17:20.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/css/index1.css</loc>
-    
-    <lastmod>2016-08-18T09:17:20.218Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/css/index.css</loc>
-    
-    <lastmod>2016-08-18T09:17:20.218Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/css/global.css</loc>
-    
-    <lastmod>2016-08-18T09:17:20.218Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/Home/css/font/style.css</loc>
-    
-    <lastmod>2016-08-18T09:17:20.218Z</lastmod>
     
   </url>
   
@@ -100,7 +16,42 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/categories/Tool/index.html</loc>
+    <loc>http://zhmy1228.github.io/page/3/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/categories/HTML/page/2/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/archives/2016/page/3/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/archives/2015/12/page/2/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/archives/2015/page/2/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/archives/page/4/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -114,14 +65,35 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/about/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/page/3/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/archives/2016/04/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/page/2/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/search.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/about/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -142,91 +114,14 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/css/showshare.css</loc>
+    <loc>http://zhmy1228.github.io/archives/2016/05/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/css/loading-style.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/clipboard.min.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/TweenMax.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/jquery.fancybox.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/instagram.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/jquery.lazyload.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/main.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/mobile.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/pc.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/plugins.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/pace.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/2016/02/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/2016/04/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -240,119 +135,7 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/archives/2016/01/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/jquery.fancybox.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/jquery.fancybox.pack.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/TweenMax.min.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/css/style.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/2015/page/2/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/embed.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/2015/12/page/2/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/page/4/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/page/2/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/categories/HTML/page/2/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/page/3/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/categories/Ajax/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/2015/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/categories/HTML/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/categories/Hexo/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/categories/Mobile/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/2016/02/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -366,7 +149,35 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/categories/Skill/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/2015/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/categories/Ajax/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/categories/HTML/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/categories/Mobile/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/categories/Hexo/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -380,7 +191,14 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/archives/2015/12/index.html</loc>
+    <loc>http://zhmy1228.github.io/categories/Skill/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/categories/Tool/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -408,77 +226,7 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/fancybox/helpers/jquery.fancybox-buttons.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/helpers/jquery.fancybox-buttons.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/helpers/jquery.fancybox-media.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/helpers/jquery.fancybox-thumbs.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/css/pace/pace-theme-flash.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/font-awesome/css/font-awesome.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/font-awesome/css/font-awesome.min.css</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/fancybox/helpers/jquery.fancybox-thumbs.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zhmy1228.github.io/page/2/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/page/3/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/404/jquery.parallaxify-0.0.2.min.js</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -492,7 +240,7 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/tags/Ajax/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/2016/01/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -500,6 +248,13 @@
   
   <url>
     <loc>http://zhmy1228.github.io/tags/CDN/index.html</loc>
+    
+    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhmy1228.github.io/tags/CSS/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -520,7 +275,7 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/tags/CSS/index.html</loc>
+    <loc>http://zhmy1228.github.io/tags/Ajax/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -548,14 +303,14 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/tags/HTML/index.html</loc>
+    <loc>http://zhmy1228.github.io/tags/Hexo/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/tags/Hexo/index.html</loc>
+    <loc>http://zhmy1228.github.io/tags/HTML/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -611,13 +366,6 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/tags/window-7/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zhmy1228.github.io/tags/%E5%BE%AE%E4%BF%A1/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
@@ -625,35 +373,14 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/archives/2016/05/index.html</loc>
+    <loc>http://zhmy1228.github.io/tags/window-7/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/index.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/js/404/jquery-2.0.3.min.js</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/search.html</loc>
-    
-    <lastmod>2016-08-11T12:20:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/archives/2016/page/3/index.html</loc>
+    <loc>http://zhmy1228.github.io/archives/2015/12/index.html</loc>
     
     <lastmod>2016-08-11T12:20:16.000Z</lastmod>
     
@@ -674,14 +401,14 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/2015/12/21/Sublimebest/</loc>
+    <loc>http://zhmy1228.github.io/2015/12/24/markdown/</loc>
     
     <lastmod>2016-04-16T22:55:24.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/2016/01/19/Git/</loc>
+    <loc>http://zhmy1228.github.io/2015/12/27/GitHub+Hexo/</loc>
     
     <lastmod>2016-04-16T22:55:24.000Z</lastmod>
     
@@ -702,14 +429,14 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/2015/12/24/markdown/</loc>
+    <loc>http://zhmy1228.github.io//search.html</loc>
     
     <lastmod>2016-04-16T22:55:24.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io//search.html</loc>
+    <loc>http://zhmy1228.github.io/2015/12/21/Sublimebest/</loc>
     
     <lastmod>2016-04-16T22:55:24.000Z</lastmod>
     
@@ -744,14 +471,7 @@
   </url>
   
   <url>
-    <loc>http://zhmy1228.github.io/2015/12/27/GitHub+Hexo/</loc>
-    
-    <lastmod>2016-04-16T22:55:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhmy1228.github.io/2015/12/25/CSS/</loc>
+    <loc>http://zhmy1228.github.io/2016/01/19/Git/</loc>
     
     <lastmod>2016-04-16T22:55:24.000Z</lastmod>
     
